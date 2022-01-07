@@ -51,10 +51,10 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Get a Quote
-              </Link>
-            </li>
+                        <Link to='/quote' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            Get a Quote
+                        </Link>
+                        </li>
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>Get a Quote</Button>}
                 </div>
