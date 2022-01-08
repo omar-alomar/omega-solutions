@@ -1,3 +1,4 @@
+import { Button } from '../Button/Button'
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
@@ -18,6 +19,9 @@ function Cards() {
 
                     </ul>
                 </div>
+            </div>
+            <div className="btn-container">
+                <Button className="get-started" buttonStyle='btn--black'>Get Started Now</Button>
             </div>
         </div>
     )
