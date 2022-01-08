@@ -23,17 +23,17 @@ function Slider() {
                 }}
                 navigation={true}
                 breakpoints={{
-                    480: {
+                    582: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                         slidesPerGroup: 2
                       },
-                    768: {
+                    838: {
                       slidesPerView: 3,
                       spaceBetween: 30,
                       slidesPerGroup: 3
                     },
-                    1024: {
+                    1115: {
                         slidesPerView: 4,
                         spaceBetween: 40,
                         slidesPerGroup: 4

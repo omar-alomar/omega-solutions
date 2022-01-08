@@ -9,10 +9,9 @@
   justify-content: center;
 }
 
-/* .get-started {
-  align-items: center;
-  justify-content: center;
-} */
+.get-started {
+  padding-top: 40px;
+}
 
 h1 {
   text-align: center;

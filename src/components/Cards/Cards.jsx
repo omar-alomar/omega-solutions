@@ -16,7 +16,9 @@ function Cards() {
                 </div>
             </div> */}
             <div className="btn-container">
-                <Button className="get-started" buttonStyle='btn--black'>Get Started Now</Button>
+                <div className="get-started">
+                    <Button buttonStyle='btn--black'>Get Started Now</Button>
+                </div>
             </div>
         </div>
     )
