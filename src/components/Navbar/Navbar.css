@@ -29,6 +29,15 @@
   align-items: center;
 }
 
+@media screen and (min-width: 960px) {
+  .navbar-logo {
+    transition: transform 0.2s;
+  }
+  .navbar-logo:hover {
+    transform: scale(1.2);
+  }
+}
+
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;

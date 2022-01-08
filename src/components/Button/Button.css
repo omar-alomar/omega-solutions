@@ -45,9 +45,27 @@
   font-size: 20px;
 }
 
-.btn--medium:hover,
+/* .btn--medium:hover,
 .btn--large:hover {
   background: #fff;
   color: #242424;
+  transition: all 0.3s ease-out;
+} */
+
+.btn--outline:hover {
+  background: #fff;
+  color: #242424;
+  transition: all 0.3s ease-out;
+}
+
+.btn--black:hover {
+  background: #fff;
+  color: #242424;
+  transition: all 0.3s ease-out;
+}
+
+.btn--primary:hover {
+  background: transparent;
+  color: #fff;
   transition: all 0.3s ease-out;
 }
