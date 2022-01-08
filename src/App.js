@@ -7,6 +7,7 @@ import Portfolio from './components/pages/Portfolio'
 import Contact from './components/pages/Contact'
 import Quote from './components/pages/Quote'
 import Footer from './components/Footer/Footer';
+import Slider from './components/Cards/Slider';
 
 function App() {
   return (
