@@ -47,9 +47,9 @@ function Slider() {
                                 path="/portfolio" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardItem src="images/ai.png" 
-                                text="Open AI gpt-3" 
-                                label="Artificial Intelligence" 
+                    <CardItem src="images/mba.png" 
+                                text="Mildenberg Boender and Associates." 
+                                label="Land Development" 
                                 path="/portfolio" />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -59,9 +59,9 @@ function Slider() {
                                 path="/portfolio" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardItem src="images/ai.png" 
-                                text="Open AI gpt-3" 
-                                label="Artificial Intelligence" 
+                    <CardItem src="images/mba.png" 
+                                text="Mildenberg Boender and Associates." 
+                                label="Land Development" 
                                 path="/portfolio" />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -71,9 +71,9 @@ function Slider() {
                                 path="/portfolio" />
                 </SwiperSlide>
                 <SwiperSlide>
-                <CardItem src="images/ai.png" 
-                                text="Open AI gpt-3" 
-                                label="Artificial Intelligence" 
+                    <CardItem src="images/mba.png" 
+                                text="Mildenberg Boender and Associates." 
+                                label="Land Development" 
                                 path="/portfolio" />
                 </SwiperSlide>
             </Swiper>

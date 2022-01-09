@@ -3,6 +3,7 @@ import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
 import Slider from './Slider'
+import { Link } from 'react-router-dom'
 
 
 function Cards() {
@@ -17,7 +18,9 @@ function Cards() {
             </div> */}
             <div className="btn-container">
                 <div className="get-started">
-                    <Button buttonStyle='btn--black'>Get Started</Button>
+                    <Link to="/quote">
+                        <Button buttonStyle='btn--black'>Get Started</Button>
+                    </Link>
                 </div>
             </div>
         </div>

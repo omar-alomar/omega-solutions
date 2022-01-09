@@ -18,6 +18,15 @@
   max-width: 1500px;
 }
 
+@media screen and (min-width: 960px) {
+  .navbar-logo {
+    transition: transform 0.2s;
+  }
+  .navbar-logo:hover {
+    transform: scale(1.2);
+  }
+}
+
 .navbar-logo {
   color: #fff;
   justify-self: start;
@@ -27,15 +36,6 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-}
-
-@media screen and (min-width: 960px) {
-  .navbar-logo {
-    transition: transform 0.2s;
-  }
-  .navbar-logo:hover {
-    transform: scale(1.2);
-  }
 }
 
 .fa-typo3 {
