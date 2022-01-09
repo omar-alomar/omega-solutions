@@ -132,9 +132,25 @@
     margin-bottom: 16px;
   } */
 
+a:link {
+  text-decoration: none !important;
+}
+
+.footer-text {
+  display: grid;
+  text-align: center;
+}
+
+.footer-text p {
+  font-weight: bold;
+}
+.footer-text small {
+  font-size: 12px;
+}
+
 .website-rights {
   color: #fff;
-  padding: 16px;
+  padding: 5px;
   justify-content: center;
   align-items: center;
 }

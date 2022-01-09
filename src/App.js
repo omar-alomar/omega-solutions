@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact'
 import Quote from './components/pages/Quote'
 import Footer from './components/Footer/Footer';
 import Slider from './components/Cards/Slider';
+import ComingSoon from './components/pages/ComingSoon';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/contact' component={Contact} />
         <Route path='/quote' component={Quote} />
+        <Route path='/comingsoon' component={ComingSoon} />
       </Switch>
       <Footer />
     </Router>
