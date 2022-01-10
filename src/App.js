@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact'
 import Quote from './components/pages/Quote'
 import Footer from './components/Footer/Footer';
 import ComingSoon from './components/pages/ComingSoon';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="content-container">
         <Navbar />
         <div className="content-wrapper">
+        <ScrollToTop />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/portfolio' component={Portfolio} />
