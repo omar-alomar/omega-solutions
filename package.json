@@ -1,5 +1,6 @@
 {
   "name": "omega-solutions",
+  "homepage": "http://omegasolutions.tech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
