@@ -1,6 +1,11 @@
 import React from 'react'
 import '../../App.css'
+import QuoteForm from '../QuoteForm/QuoteForm'
 
 export default function Quote() {
-    return <h1 className="quote">Quote</h1>
+    return (
+        <>
+            <QuoteForm />
+        </>
+    )
 }

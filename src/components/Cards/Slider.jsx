@@ -33,48 +33,22 @@ function Slider() {
                       spaceBetween: 30,
                       slidesPerGroup: 3
                     },
-                    1115: {
-                        slidesPerView: 4,
-                        spaceBetween: 40,
-                        slidesPerGroup: 4
-                    }
+                    // 1115: {
+                    //     slidesPerView: 4,
+                    //     spaceBetween: 40,
+                    //     slidesPerGroup: 4
+                    // }
                   }}
                 className="mySwiper">
                 <SwiperSlide>
-                    <CardItem src="images/mba.png" 
-                                text="Mildenberg Boender and Associates." 
-                                label="Land Development" 
-                                path="/portfolio" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardItem src="images/mba.png" 
+                <div className="card-item"><CardItem src="images/mba.png" 
                                 text="Mildenberg Boender and Associates." 
                                 label="Land Development" 
-                                path="/portfolio" />
+                                path="https://mba-eng.com" /></div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardItem src="images/mba.png" 
-                                text="Mildenberg Boender and Associates." 
-                                label="Land Development" 
-                                path="/portfolio" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <CardItem src="images/mba.png" 
-                                text="Mildenberg Boender and Associates." 
-                                label="Land Development" 
-                                path="/portfolio" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <CardItem src="images/mba.png" 
-                                text="Mildenberg Boender and Associates." 
-                                label="Land Development" 
-                                path="/portfolio" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <CardItem src="images/mba.png" 
-                                text="Mildenberg Boender and Associates." 
-                                label="Land Development" 
-                                path="/portfolio" />
                 </SwiperSlide>
             </Swiper>
         </div>  

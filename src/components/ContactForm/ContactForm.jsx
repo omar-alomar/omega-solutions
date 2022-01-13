@@ -7,7 +7,7 @@ function ContactForm() {
     return (
         <>
             <div className="contact_container">
-                 <form action="https://formsubmit.co/omaro2000@gmail.com" method="POST">
+                 <form action="https://formsubmit.co/hello@omegasolutions.tech" method="POST">
                     <div className="container">
                         <div className="row">
                                 <h1>Contact Us</h1>
